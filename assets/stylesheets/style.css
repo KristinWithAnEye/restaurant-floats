@@ -1,0 +1,514 @@
+/******************************************
+/* GLOBAL STYLES
+/*******************************************/
+* {
+    box-sizing: border-box;
+}
+  
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+  
+.clear {
+    clear: both;
+}
+
+/******************************************
+/* FONT STYLES
+/*******************************************/
+html {
+    font-size: 62.5%;
+    font-family: "Merriweather", serif;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul li *,
+form > input,
+form > a,
+.facebook, 
+.twitter,
+.instagram
+.about span,
+.about p,
+.about a,
+.cuisine span,
+.cuisine a,
+.opening span,
+.opening p,
+.testimonials span,
+.testimonials p {
+    font-family: "Arial", sans-serif;
+}
+
+p.nums {
+    font-family: "Merriweather", serif;
+    font-size: 2rem;
+}
+
+nav > ul li * {
+    text-decoration: none;
+    font-size: 1.2rem; 
+    color: black;
+}
+
+header > i {
+    font-size: 1.7rem;
+}
+
+main h1 {
+    font-size: 4rem;
+}
+
+form > input,
+form > a {
+    font-size: 1.1rem;
+}
+
+form > a {
+    color: white;
+    text-decoration: none;
+}
+
+.facebook, 
+.twitter,
+.instagram {
+    font-size: 1.2rem;
+}
+
+.facebook i, 
+.twitter i,
+.instagram i,
+.about span,
+.cuisine span,
+.cuisine a:first-of-type,
+span.book,
+p.nums:first-of-type,
+.opening i,
+.stars {
+    color: rgba(239, 142, 52, 1);
+}
+
+.about,
+.about a {
+    color: white;
+}
+
+.about span,
+span.book,
+span.call {
+    font-size: 1.3rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+}
+
+h2,
+h3 {
+    font-size: 3.5rem;
+}
+
+.about a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.cuisine span {
+    font-size: 1.25rem;
+}
+
+.cuisine a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.opening i {
+    font-size: 7rem;
+}
+
+.days {
+    font-size: 1.2rem;
+}
+
+/******************************************
+/* HEADER
+/*******************************************/
+header > img {
+    width: 4%;
+    margin-top: -0.7%;
+    margin-left: 5%;
+}
+
+header > img, 
+nav > ul li,
+header > i {
+    float: left;
+}
+
+nav > ul li:first-of-type {
+    margin-left: 35%
+}
+
+nav > ul li {
+    margin-right: 4%;
+    margin-top: 1%;
+}
+
+header > i {
+    margin-top: 0.8%;
+    margin-right: 3%;
+}
+
+.welcome-section {
+    background-image: url(/assets/images/welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-top: 0.5%;
+}
+
+.name {
+    font-size: 2.5rem;
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+.testimonials p {
+    font-size: 1.5rem;
+}
+
+.title,
+.testimonials p {
+    color: rgba(119, 119, 141, 1);
+}
+
+/******************************************
+/* MAIN
+/*******************************************/
+main {
+    clear: both;
+    padding-bottom: 22%
+}
+
+main h1 {
+    padding-top: 8%;
+    margin-left: 6%;
+    width: 20%;
+}
+
+form > input {
+    border: 1px solid rgba(202, 204, 213, 1);
+    border-radius: 5px;
+    margin-left: 6%;
+    padding-right: 10%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    padding-left: 0.8%;
+}
+
+form > a {
+    background: rgba(239, 142, 52, 1);
+    border-radius: 5px;
+    padding: 0.9% 2%;
+    margin-left: -1%;
+}
+
+.facebook, 
+.twitter,
+.instagram {
+    float: left;
+    padding-top: 4%;
+    margin-right: 3%;
+} 
+
+.facebook {
+    margin-left: 6%;
+}
+
+/******************************************
+/* ABOUT US
+/*******************************************/
+.about {
+    clear: both;
+    padding-top: 5%;
+    background-image: url(/assets/images/discover.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 12%;
+    padding-top: 10%;
+}
+
+.about span {
+    margin-left: 63%;
+}
+
+.about h2 {
+    width: 30%;
+    margin-left: 63%;
+    margin-top: 1%;
+}
+
+.about p {
+    width: 30%;
+    margin-left: 63%;
+}
+
+.about p + p {
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+.about a {
+    margin-left: 63%;
+    background: rgba(239, 142, 52, 1);
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+
+/******************************************
+/* OUR SPECIALTY CUISINE
+/*******************************************/
+.cuisine {
+    background-color: rgba(243, 246, 247, 1);
+    padding-bottom: 6.5%;
+    padding-top: 5%;
+}
+
+.cuisine span {
+    margin-left: 45%;
+}
+
+.cuisine h3 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.cuisine a:first-of-type {
+    margin-left: 20%;
+    border-bottom: 2px solid rgba(239, 142, 52, 1);
+    padding-bottom: 1.1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.cuisine a {
+    border-bottom: 2px solid rgba(228, 231, 232, 1);
+    padding-bottom: 1.1%;
+}
+
+.cuisine a:not(:first-child) {
+    padding-right: 4.1%;
+    padding-left: 4.1%;
+    margin: 0;
+}
+
+.links {
+    margin-bottom: 5%;
+}
+
+.cuisine img {
+    width: 155px;
+    height: 200px;
+}
+
+.food-one,
+.food-five {
+    margin-left: 17%;
+}
+
+.photos-one {
+    margin-bottom: 2%;
+}
+
+.photos-one img,
+.photos-two img {
+    margin-right: 2%;
+}
+
+.scroll div:first-child {
+    margin-left: 47%;
+}
+
+.scroll div {
+    background:rgba(239, 142, 52, 1);
+    height: 3px;
+    width: 3px;
+    margin-right: 1%;
+    margin-top: 3%;
+    float: left;
+}
+
+/******************************************
+/* OPENING HOURS
+/*******************************************/
+.opening {
+    clear: both;
+    padding-top: 6%;
+}
+
+.book,
+.opening i {
+    margin-left: 46%;
+}
+
+.opening h3 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.opening i {
+    margin-right: 50%;
+    padding-bottom: 1%;
+}
+
+.call {
+    margin-left: 46.5%;
+}
+
+.nums:first-of-type {
+    margin-left: 42%;
+    margin-top: 0.5%;
+}
+
+.nums:not(:first-of-type) {
+    margin-top: -5%;
+    margin-bottom: 20%;
+}
+
+.days-one,
+.days-two {
+    float: left;
+    margin-left: 20%;
+}
+
+.opening img {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+/******************************************
+/* TESTIMONIALS
+/*******************************************/
+.testimonials {
+    background-color: rgba(243, 246, 247, 1);
+    padding-bottom: 6.5%;
+    padding-top: 5%;
+}
+
+.testimonials h3 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.testimonials img {
+    width: 10%;
+    border-radius: 100px;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-bottom: 1.5%;
+}
+
+.name,
+.title {
+    display: block;
+}
+
+.name {
+    margin-left: 42%;
+    padding-bottom: 0.4%;
+}
+
+.title {
+    margin-left: 47%;
+}
+
+.stars {
+    margin-top: 1.5%;
+    margin-left: 47%;
+}
+
+.testimonials p {
+    width: 55%;
+    margin-left: 23%;
+    margin-bottom: -1%;
+    text-align: center;
+}
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+@media screen and (max-width: 900px) {
+    nav,
+    .fa-cart-shopping,
+    .fa-magnifying-glass,
+    main,
+    .about,
+    .cuisine {
+        display: none;
+    }
+
+    .welcome-section {
+        background-image: none;
+        border-bottom: 1px solid black;
+    }
+
+    header {
+        height: 55px;
+    }
+
+    header > img {
+        float: left;
+        margin-left: 45%;
+        margin-top: -3%;
+        width: 10%;
+    } 
+    
+    .hamburger div {
+        width: 6%;
+        height: 2px;
+        background-color: rgba(45, 63, 81, 1);
+        margin-bottom: 1%;
+        margin-left: 8%;
+    }
+
+    .hamburger div:first-of-type {
+        margin-top: 3%;
+    }
+
+    .order {
+        margin-top: -3.5%;
+    }
+
+    .order a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .order a:first-of-type {
+        margin-left: 17%;
+        margin-right: 5%;
+    }
+
+    .opening {
+        clear: both;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .hamburger,
+    .order {
+        display: none;
+    }
+}
